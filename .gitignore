@@ -1,0 +1,11 @@
+FullStack_Project/.git
+front_EE/src/api/socialAuthApi.js
+back4/gradle/wrapper/dists/gradle-8.11.1-bin/
+.env
+
+# Gradle Wrapper의 큰 파일 제외
+**/gradle/wrapper/dists/
+
+# Node.js 및 기타 캐시 파일
+node_modules/
+dist/
