@@ -1,0 +1,1016 @@
+2024-12-26T14:24:50.920+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=KR, -Duser.language=ko, -Duser.variant]
+2024-12-26T14:24:51.139+0900 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2024-12-26T14:24:51.193+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=e9bfed38-cdf1-4db0-9a36-de197bb4107c,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\taeyun\IdeaProjects\back4\gradle\daemon,pid=2584,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2024-12-26T14:24:51.375+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2024-12-26T14:24:51.378+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2024-12-26T14:24:51.378+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2024-12-26T14:24:51.379+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2024-12-26T14:24:51.380+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2024-12-26T14:24:51.383+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.383+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2024-12-26T14:24:51.386+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.387+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2024-12-26T14:24:51.390+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.390+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+2024-12-26T14:24:51.394+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.395+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:c2f4:6b01:cb20:1b5d%wlan0
+2024-12-26T14:24:51.395+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2024-12-26T14:24:51.399+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.400+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2024-12-26T14:24:51.402+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.403+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2024-12-26T14:24:51.405+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.405+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160
+2024-12-26T14:24:51.408+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.409+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.92
+2024-12-26T14:24:51.409+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:76a6:d5f5:8b5d:a6d2%wlan1
+2024-12-26T14:24:51.409+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2024-12-26T14:24:51.412+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.412+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2024-12-26T14:24:51.415+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.415+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2024-12-26T14:24:51.418+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.418+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2024-12-26T14:24:51.431+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.432+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:3199:4509:650e:e5d5%eth3
+2024-12-26T14:24:51.432+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2024-12-26T14:24:51.436+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.436+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller
+2024-12-26T14:24:51.438+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.439+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:cc6:c238:358b:2098%eth4
+2024-12-26T14:24:51.439+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2024-12-26T14:24:51.443+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.444+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+2024-12-26T14:24:51.446+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.446+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:c9d6:f6cf:a777:7b88%wlan2
+2024-12-26T14:24:51.447+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2024-12-26T14:24:51.449+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.449+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.452+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.452+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.455+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.455+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.458+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.459+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.462+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.462+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160-Virtual WiFi Filter Driver-0000
+2024-12-26T14:24:51.465+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.465+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160-Native WiFi Filter Driver-0000
+2024-12-26T14:24:51.467+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.468+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.470+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.471+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Dual Band Wireless-AC 3160-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.473+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.473+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.476+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.476+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+2024-12-26T14:24:51.479+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.479+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.481+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.481+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.484+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.484+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.488+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.488+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.492+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.493+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.496+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.496+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.499+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.499+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.502+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.503+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.506+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.506+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.509+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.510+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+2024-12-26T14:24:51.512+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.512+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+2024-12-26T14:24:51.515+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.515+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+2024-12-26T14:24:51.517+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2024-12-26T14:24:51.525+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]].
+2024-12-26T14:24:51.547+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Thu Dec 26 14:24:51 KST 2024, with address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:24:51.548+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:24:51.548+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=e9bfed38-cdf1-4db0-9a36-de197bb4107c,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\taeyun\IdeaProjects\back4\gradle\daemon,pid=2584,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2024-12-26T14:24:51.549+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=e9bfed38-cdf1-4db0-9a36-de197bb4107c,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\taeyun\IdeaProjects\back4\gradle\daemon,pid=2584,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+2024-12-26T14:24:51.577+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:24:51.585+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:24:51.595+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:24:51.596+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2024-12-26T14:24:51.597+0900 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2024-12-26T14:24:51.609+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:52760 to /127.0.0.1:52759.
+2024-12-26T14:24:51.618+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2024-12-26T14:24:51.620+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2024-12-26T14:24:51.621+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-12-26T14:24:51.728+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.Build
+2024-12-26T14:24:51.728+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received non-IO message from client: Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}
+2024-12-26T14:24:51.728+0900 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}.
+2024-12-26T14:24:51.729+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4} with connection: socket connection from /127.0.0.1:52759 to /127.0.0.1:52760.
+2024-12-26T14:24:51.733+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52759 to /127.0.0.1:52760] after 0.00645 minutes of idle
+2024-12-26T14:24:51.734+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:24:51.734+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:24:51.735+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:24:51.736+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:24:51.740+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:24:51.742+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-12-26T14:24:51.743+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-12-26T14:24:51.745+0900 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}. Dispatching build started information...
+2024-12-26T14:24:51.745+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 23: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@44ed42d8
+2024-12-26T14:24:51.748+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, LOCALAPPDATA, PROCESSOR_LEVEL, IntelliJ IDEA, USERDOMAIN, LOGONSERVER, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, OneDrive, APPDATA, USERNAME, ProgramFiles(x86), CommonProgramFiles, Path, PATHEXT, DriverData, OS, OneDriveConsumer, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, ProgramData, ProgramW6432, TEMP, HOMEPATH, SystemRoot, PROCESSOR_IDENTIFIER, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), ProgramFiles, PUBLIC, windir, NUMBER_OF_PROCESSORS]
+2024-12-26T14:24:51.757+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-12-26T14:24:51.757+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 2584). The daemon log file: C:\Users\taeyun\IdeaProjects\back4\gradle\daemon\8.11.1\daemon-2584.out.log
+2024-12-26T14:24:51.760+0900 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2024-12-26T14:24:51.765+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-12-26T14:24:51.765+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=e9bfed38-cdf1-4db0-9a36-de197bb4107c,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\taeyun\IdeaProjects\back4\gradle\daemon,pid=2584,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=KR,-Duser.language=ko,-Duser.variant]
+(source unavailable)
+(source unavailable)
+(source unavailable)
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\filter\JwtCheckFilter.java:0: error: class JwtCheckerFilter is public, should be declared in a file named JwtCheckerFilter.java
+
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:18: error: cannot find symbol
+    private final JwtCheckerFilter jwtCheckerFilter;
+                  ^
+  symbol:   class JwtCheckerFilter
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:21: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                                                   ^
+  symbol:   class HttpSecurity
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:21: error: cannot find symbol
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+           ^
+  symbol:   class SecurityFilterChain
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:36: error: cannot find symbol
+    public PasswordEncoder passwordEncoder() {
+           ^
+  symbol:   class PasswordEncoder
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:41: error: cannot find symbol
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+                                                       ^
+  symbol:   class AuthenticationConfiguration
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:41: error: cannot find symbol
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+           ^
+  symbol:   class AuthenticationManager
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:30: error: cannot find symbol
+                .addFilterBefore(jwtCheckerFilter, UsernamePasswordAuthenticationFilter.class); // JWT 필터 추가
+                                                   ^
+  symbol:   class UsernamePasswordAuthenticationFilter
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:37: error: cannot find symbol
+        return new BCryptPasswordEncoder();
+                   ^
+  symbol:   class BCryptPasswordEncoder
+  location: class SecurityConfig
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:28: error: cannot find symbol
+        log.info("register : " + mealkitDTO);
+        ^
+  symbol:   variable log
+  location: class MealkitController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:30: error: cannot find symbol
+        List<MultipartFile> files = mealkitDTO.getFiles();
+                                              ^
+  symbol:   method getFiles()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:34: error: cannot find symbol
+        mealkitDTO.setUploadFileNames(uploadFileNames);
+                  ^
+  symbol:   method setUploadFileNames(List<String>)
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:36: error: cannot find symbol
+        log.info(uploadFileNames);
+        ^
+  symbol:   variable log
+  location: class MealkitController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:55: error: cannot find symbol
+        log.info("list--------------------------------"+ mealkitDTO);
+        ^
+  symbol:   variable log
+  location: class MealkitController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:67: error: cannot find symbol
+        mealkitDTO.setMid(mid);
+                  ^
+  symbol:   method setMid(Long)
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:71: error: cannot find symbol
+        List<String> oldFileNames = oldMealkitDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable oldMealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:73: error: cannot find symbol
+        List<MultipartFile> files = mealkitDTO.getFiles();
+                                              ^
+  symbol:   method getFiles()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:77: error: cannot find symbol
+        List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:98: error: cannot find symbol
+        List<String> oldFileNames = mealkitService.get(mid).getUploadFileNames();
+                                                           ^
+  symbol:   method getUploadFileNames()
+  location: class MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:111: error: cannot find symbol
+        log.info("재료개수를 업데이트 합니다. : {}", mpid);
+        ^
+  symbol:   variable log
+  location: class MealkitController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:28: error: cannot find symbol
+        log.info("register: " + productDTO);
+        ^
+  symbol:   variable log
+  location: class ProductController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:30: error: cannot find symbol
+        List<MultipartFile> files = productDTO.getFiles();
+                                              ^
+  symbol:   method getFiles()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:34: error: cannot find symbol
+        productDTO.setUploadFileNames(uploadFileNames);
+                  ^
+  symbol:   method setUploadFileNames(List<String>)
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:36: error: cannot find symbol
+        log.info(uploadFileNames);
+        ^
+  symbol:   variable log
+  location: class ProductController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:56: error: cannot find symbol
+        log.info("list------------------------" + productDTO);
+        ^
+  symbol:   variable log
+  location: class ProductController
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:63: error: cannot find symbol
+        productDTO.setPid(pid);
+                  ^
+  symbol:   method setPid(Long)
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:67: error: cannot find symbol
+        List<String> oldFileNames = oldProductDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable oldProductDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:69: error: cannot find symbol
+        List<MultipartFile> files = productDTO.getFiles();
+                                              ^
+  symbol:   method getFiles()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:73: error: cannot find symbol
+        List<String> uploadedFileNames = productDTO.getUploadFileNames();
+                                                   ^
+  symbol:   method getUploadFileNames()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:94: error: cannot find symbol
+        List<String> oldFileNames =  productService.get(pid).getUploadFileNames();
+                                                            ^
+  symbol:   method getUploadFileNames()
+  location: class ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:30: error: cannot find symbol
+        int end = (int)(Math.ceil( pageRequestDTO.getPage() / 10.0)) * 10;
+                                                 ^
+  symbol:   method getPage()
+  location: variable pageRequestDTO of type PageRequestDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:34: error: cannot find symbol
+        int last = (int)(Math.ceil((totalCount/(double)pageRequestDTO.getSize())));
+                                                                     ^
+  symbol:   method getSize()
+  location: variable pageRequestDTO of type PageRequestDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:40: error: cannot find symbol
+        this.next = totalCount > end * pageRequestDTO.getSize();
+                                                     ^
+  symbol:   method getSize()
+  location: variable pageRequestDTO of type PageRequestDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:54: error: cannot find symbol
+        this.current = pageRequestDTO.getPage();
+                                     ^
+  symbol:   method getPage()
+  location: variable pageRequestDTO of type PageRequestDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:70: error: cannot find symbol
+                    MealkitDTO.builder()
+                              ^
+  symbol:   method builder()
+  location: class MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:81: error: cannot find symbol
+                List<String> images = mealkitDTO.getUploadFileNames();
+                                                ^
+  symbol:   method getUploadFileNames()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:86: error: cannot find symbol
+                mealkitDTO.setUploadFileNames(images);
+                          ^
+  symbol:   method setUploadFileNames(List<String>)
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:109: error: cannot find symbol
+                .map(mp -> MealkitProductDTO.builder()
+                                            ^
+  symbol:   method builder()
+  location: class MealkitProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:111: error: cannot find symbol
+                        .product(ProductDTO.builder()
+                                           ^
+  symbol:   method builder()
+  location: class ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:118: error: incompatible types: inference variable T has incompatible bounds
+                .collect(Collectors.toList());
+                        ^
+    equality constraints: MealkitProductDTO
+    lower bounds: Object
+  where T is a type-variable:
+    T extends Object declared in method <T>toList()
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:120: error: cannot find symbol
+        mealkitDTO.setProducts(productDTOs);
+                  ^
+  symbol:   method setProducts(List<MealkitProductDTO>)
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:137: error: cannot find symbol
+        Optional<Mealkit> result = mealkitRepository.findById(mealkitDTO.getMid());
+                                                                        ^
+  symbol:   method getMid()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:141: error: cannot find symbol
+        mealkit.changeMname(mealkitDTO.getMname());
+                                      ^
+  symbol:   method getMname()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:142: error: cannot find symbol
+        mealkit.changePrice(mealkitDTO.getPrice());
+                                      ^
+  symbol:   method getPrice()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:143: error: cannot find symbol
+        mealkit.changeRecipe(mealkitDTO.getRecipe());
+                                       ^
+  symbol:   method getRecipe()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:147: error: cannot find symbol
+        List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:164: error: cannot find symbol
+        log.info("밀키트의 기본재료", mid);
+        ^
+  symbol:   variable log
+  location: class MealkitServiceImpl
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:173: error: cannot find symbol
+                .map(mp -> MealkitProductDTO.builder()
+                                            ^
+  symbol:   method builder()
+  location: class MealkitProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:175: error: cannot find symbol
+                        .product(ProductDTO.builder()
+                                           ^
+  symbol:   method builder()
+  location: class ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:182: error: incompatible types: inference variable T has incompatible bounds
+                .collect(Collectors.toList());
+                        ^
+    equality constraints: MealkitProductDTO
+    lower bounds: Object
+  where T is a type-variable:
+    T extends Object declared in method <T>toList()
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:186: error: cannot find symbol
+                .mapToInt(mp -> mp.getProduct().getPprice() * mp.getQuantity())
+                                  ^
+  symbol:   method getProduct()
+  location: variable mp of type MealkitProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:186: error: cannot find symbol
+                .mapToInt(mp -> mp.getProduct().getPprice() * mp.getQuantity())
+                                                                ^
+  symbol:   method getQuantity()
+  location: variable mp of type MealkitProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:190: error: cannot find symbol
+        return MealkitDTO.builder()
+                         ^
+  symbol:   method builder()
+  location: class MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:201: error: cannot find symbol
+        log.info("재료들의 합을 업데이트합니다.", mid);
+        ^
+  symbol:   variable log
+  location: class MealkitServiceImpl
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:220: error: cannot find symbol
+        log.info("다시 시도합니다.", mid);
+        ^
+  symbol:   variable log
+  location: class MealkitServiceImpl
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:239: error: cannot find symbol
+        MealkitDTO mealkitDTO = MealkitDTO.builder()
+                                          ^
+  symbol:   method builder()
+  location: class MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:256: error: cannot find symbol
+        mealkitDTO.setUploadFileNames(fileNameList);
+                  ^
+  symbol:   method setUploadFileNames(List<String>)
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:265: error: cannot find symbol
+                .mid(mealkitDTO.getMid())
+                               ^
+  symbol:   method getMid()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:266: error: cannot find symbol
+                .mname(mealkitDTO.getMname())
+                                 ^
+  symbol:   method getMname()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:267: error: cannot find symbol
+                .price(mealkitDTO.getPrice())
+                                 ^
+  symbol:   method getPrice()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:268: error: cannot find symbol
+                .recipe(mealkitDTO.getRecipe())
+                                  ^
+  symbol:   method getRecipe()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:269: error: cannot find symbol
+                .category(MealkitCategory.valueOf(mealkitDTO.getCategory()))
+                                                            ^
+  symbol:   method getCategory()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:272: error: cannot find symbol
+        List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable mealkitDTO of type MealkitDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:26: error: cannot find symbol
+        log.info("get All......................");
+        ^
+  symbol:   variable log
+  location: class ProductServiceImpl
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:57: error: cannot find symbol
+        Optional<Product> result = productRepository.findById(productDTO.getPid());
+                                                                        ^
+  symbol:   method getPid()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:61: error: cannot find symbol
+        product.changePname(productDTO.getPname());
+                                      ^
+  symbol:   method getPname()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:62: error: cannot find symbol
+        product.changePprice(productDTO.getPprice());
+                                       ^
+  symbol:   method getPprice()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:73: error: cannot find symbol
+        ProductDTO productDTO = ProductDTO.builder()
+                                          ^
+  symbol:   method builder()
+  location: class ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:88: error: cannot find symbol
+        productDTO.setUploadFileNames(fileNameList);
+                  ^
+  symbol:   method setUploadFileNames(List<String>)
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:95: error: cannot find symbol
+                .pid(productDTO.getPid())
+                               ^
+  symbol:   method getPid()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:96: error: cannot find symbol
+                .pname(productDTO.getPname())
+                                 ^
+  symbol:   method getPname()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:97: error: cannot find symbol
+                .pprice(productDTO.getPprice())
+                                  ^
+  symbol:   method getPprice()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:100: error: cannot find symbol
+        List<String> uploadFileNames = productDTO.getUploadFileNames();
+                                                 ^
+  symbol:   method getUploadFileNames()
+  location: variable productDTO of type ProductDTO
+C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\util\JWTUtil.java:36: error: cannot find symbol
+        log.info("Generated JWT Token ({} minutes): {}", min, jwtStr);
+        ^
+  symbol:   variable log
+  location: class JWTUtil
+Note: C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\filter\JwtCheckFilter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+74 errors
+[Incubating] Problems report is available at: file:///C:/Users/taeyun/IdeaProjects/back4/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\filter\JwtCheckFilter.java uses unchecked or unsafe operations.
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\filter\JwtCheckFilter.java:0: error: class JwtCheckerFilter is public, should be declared in a file named JwtCheckerFilter.java
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:118: error: incompatible types: inference variable T has incompatible bounds
+                  .collect(Collectors.toList());
+                          ^
+      equality constraints: MealkitProductDTO
+      lower bounds: Object
+    where T is a type-variable:
+      T extends Object declared in method <T>toList()
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:182: error: incompatible types: inference variable T has incompatible bounds
+                  .collect(Collectors.toList());
+                          ^
+      equality constraints: MealkitProductDTO
+      lower bounds: Object
+    where T is a type-variable:
+      T extends Object declared in method <T>toList()
+  Note: Recompile with -Xlint:unchecked for details.
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:30: error: cannot find symbol
+          List<MultipartFile> files = mealkitDTO.getFiles();
+                                                ^
+    symbol:   method getFiles()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:34: error: cannot find symbol
+          mealkitDTO.setUploadFileNames(uploadFileNames);
+                    ^
+    symbol:   method setUploadFileNames(List<String>)
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:67: error: cannot find symbol
+          mealkitDTO.setMid(mid);
+                    ^
+    symbol:   method setMid(Long)
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:71: error: cannot find symbol
+          List<String> oldFileNames = oldMealkitDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable oldMealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:73: error: cannot find symbol
+          List<MultipartFile> files = mealkitDTO.getFiles();
+                                                ^
+    symbol:   method getFiles()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:77: error: cannot find symbol
+          List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:98: error: cannot find symbol
+          List<String> oldFileNames = mealkitService.get(mid).getUploadFileNames();
+                                                             ^
+    symbol:   method getUploadFileNames()
+    location: class MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:30: error: cannot find symbol
+          List<MultipartFile> files = productDTO.getFiles();
+                                                ^
+    symbol:   method getFiles()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:34: error: cannot find symbol
+          productDTO.setUploadFileNames(uploadFileNames);
+                    ^
+    symbol:   method setUploadFileNames(List<String>)
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:63: error: cannot find symbol
+          productDTO.setPid(pid);
+                    ^
+    symbol:   method setPid(Long)
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:67: error: cannot find symbol
+          List<String> oldFileNames = oldProductDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable oldProductDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:69: error: cannot find symbol
+          List<MultipartFile> files = productDTO.getFiles();
+                                                ^
+    symbol:   method getFiles()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:73: error: cannot find symbol
+          List<String> uploadedFileNames = productDTO.getUploadFileNames();
+                                                     ^
+    symbol:   method getUploadFileNames()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:94: error: cannot find symbol
+          List<String> oldFileNames =  productService.get(pid).getUploadFileNames();
+                                                              ^
+    symbol:   method getUploadFileNames()
+    location: class ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:30: error: cannot find symbol
+          int end = (int)(Math.ceil( pageRequestDTO.getPage() / 10.0)) * 10;
+                                                   ^
+    symbol:   method getPage()
+    location: variable pageRequestDTO of type PageRequestDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:34: error: cannot find symbol
+          int last = (int)(Math.ceil((totalCount/(double)pageRequestDTO.getSize())));
+                                                                       ^
+    symbol:   method getSize()
+    location: variable pageRequestDTO of type PageRequestDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:40: error: cannot find symbol
+          this.next = totalCount > end * pageRequestDTO.getSize();
+                                                       ^
+    symbol:   method getSize()
+    location: variable pageRequestDTO of type PageRequestDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\dto\pageable\PageResponseDTO.java:54: error: cannot find symbol
+          this.current = pageRequestDTO.getPage();
+                                       ^
+    symbol:   method getPage()
+    location: variable pageRequestDTO of type PageRequestDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:70: error: cannot find symbol
+                      MealkitDTO.builder()
+                                ^
+    symbol:   method builder()
+    location: class MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:81: error: cannot find symbol
+                  List<String> images = mealkitDTO.getUploadFileNames();
+                                                  ^
+    symbol:   method getUploadFileNames()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:86: error: cannot find symbol
+                  mealkitDTO.setUploadFileNames(images);
+                            ^
+    symbol:   method setUploadFileNames(List<String>)
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:109: error: cannot find symbol
+                  .map(mp -> MealkitProductDTO.builder()
+                                              ^
+    symbol:   method builder()
+    location: class MealkitProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:111: error: cannot find symbol
+                          .product(ProductDTO.builder()
+                                             ^
+    symbol:   method builder()
+    location: class ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:120: error: cannot find symbol
+          mealkitDTO.setProducts(productDTOs);
+                    ^
+    symbol:   method setProducts(List<MealkitProductDTO>)
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:137: error: cannot find symbol
+          Optional<Mealkit> result = mealkitRepository.findById(mealkitDTO.getMid());
+                                                                          ^
+    symbol:   method getMid()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:141: error: cannot find symbol
+          mealkit.changeMname(mealkitDTO.getMname());
+                                        ^
+    symbol:   method getMname()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:142: error: cannot find symbol
+          mealkit.changePrice(mealkitDTO.getPrice());
+                                        ^
+    symbol:   method getPrice()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:143: error: cannot find symbol
+          mealkit.changeRecipe(mealkitDTO.getRecipe());
+                                         ^
+    symbol:   method getRecipe()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:147: error: cannot find symbol
+          List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:173: error: cannot find symbol
+                  .map(mp -> MealkitProductDTO.builder()
+                                              ^
+    symbol:   method builder()
+    location: class MealkitProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:175: error: cannot find symbol
+                          .product(ProductDTO.builder()
+                                             ^
+    symbol:   method builder()
+    location: class ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:186: error: cannot find symbol
+                  .mapToInt(mp -> mp.getProduct().getPprice() * mp.getQuantity())
+                                    ^
+    symbol:   method getProduct()
+    location: variable mp of type MealkitProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:186: error: cannot find symbol
+                  .mapToInt(mp -> mp.getProduct().getPprice() * mp.getQuantity())
+                                                                  ^
+    symbol:   method getQuantity()
+    location: variable mp of type MealkitProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:190: error: cannot find symbol
+          return MealkitDTO.builder()
+                           ^
+    symbol:   method builder()
+    location: class MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:239: error: cannot find symbol
+          MealkitDTO mealkitDTO = MealkitDTO.builder()
+                                            ^
+    symbol:   method builder()
+    location: class MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:256: error: cannot find symbol
+          mealkitDTO.setUploadFileNames(fileNameList);
+                    ^
+    symbol:   method setUploadFileNames(List<String>)
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:265: error: cannot find symbol
+                  .mid(mealkitDTO.getMid())
+                                 ^
+    symbol:   method getMid()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:266: error: cannot find symbol
+                  .mname(mealkitDTO.getMname())
+                                   ^
+    symbol:   method getMname()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:267: error: cannot find symbol
+                  .price(mealkitDTO.getPrice())
+                                   ^
+    symbol:   method getPrice()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:268: error: cannot find symbol
+                  .recipe(mealkitDTO.getRecipe())
+                                    ^
+    symbol:   method getRecipe()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:269: error: cannot find symbol
+                  .category(MealkitCategory.valueOf(mealkitDTO.getCategory()))
+                                                              ^
+    symbol:   method getCategory()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:272: error: cannot find symbol
+          List<String> uploadFileNames = mealkitDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable mealkitDTO of type MealkitDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:57: error: cannot find symbol
+          Optional<Product> result = productRepository.findById(productDTO.getPid());
+                                                                          ^
+    symbol:   method getPid()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:61: error: cannot find symbol
+          product.changePname(productDTO.getPname());
+                                        ^
+    symbol:   method getPname()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:62: error: cannot find symbol
+          product.changePprice(productDTO.getPprice());
+                                         ^
+    symbol:   method getPprice()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:73: error: cannot find symbol
+          ProductDTO productDTO = ProductDTO.builder()
+                                            ^
+    symbol:   method builder()
+    location: class ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:88: error: cannot find symbol
+          productDTO.setUploadFileNames(fileNameList);
+                    ^
+    symbol:   method setUploadFileNames(List<String>)
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:95: error: cannot find symbol
+                  .pid(productDTO.getPid())
+                                 ^
+    symbol:   method getPid()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:96: error: cannot find symbol
+                  .pname(productDTO.getPname())
+                                   ^
+    symbol:   method getPname()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:97: error: cannot find symbol
+                  .pprice(productDTO.getPprice())
+                                    ^
+    symbol:   method getPprice()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:100: error: cannot find symbol
+          List<String> uploadFileNames = productDTO.getUploadFileNames();
+                                                   ^
+    symbol:   method getUploadFileNames()
+    location: variable productDTO of type ProductDTO
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:18: error: cannot find symbol
+      private final JwtCheckerFilter jwtCheckerFilter;
+                    ^
+    symbol:   class JwtCheckerFilter
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:21: error: cannot find symbol
+      public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                                                     ^
+    symbol:   class HttpSecurity
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:21: error: cannot find symbol
+      public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+             ^
+    symbol:   class SecurityFilterChain
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:36: error: cannot find symbol
+      public PasswordEncoder passwordEncoder() {
+             ^
+    symbol:   class PasswordEncoder
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:41: error: cannot find symbol
+      public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+                                                         ^
+    symbol:   class AuthenticationConfiguration
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:41: error: cannot find symbol
+      public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+             ^
+    symbol:   class AuthenticationManager
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:30: error: cannot find symbol
+                  .addFilterBefore(jwtCheckerFilter, UsernamePasswordAuthenticationFilter.class); // JWT 필터 추가
+                                                     ^
+    symbol:   class UsernamePasswordAuthenticationFilter
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\config\SecurityConfig.java:37: error: cannot find symbol
+          return new BCryptPasswordEncoder();
+                     ^
+    symbol:   class BCryptPasswordEncoder
+    location: class SecurityConfig
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:28: error: cannot find symbol
+          log.info("register : " + mealkitDTO);
+          ^
+    symbol:   variable log
+    location: class MealkitController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:36: error: cannot find symbol
+          log.info(uploadFileNames);
+          ^
+    symbol:   variable log
+    location: class MealkitController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:55: error: cannot find symbol
+          log.info("list--------------------------------"+ mealkitDTO);
+          ^
+    symbol:   variable log
+    location: class MealkitController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\MealkitController.java:111: error: cannot find symbol
+          log.info("재료개수를 업데이트 합니다. : {}", mpid);
+          ^
+    symbol:   variable log
+    location: class MealkitController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:28: error: cannot find symbol
+          log.info("register: " + productDTO);
+          ^
+    symbol:   variable log
+    location: class ProductController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:36: error: cannot find symbol
+          log.info(uploadFileNames);
+          ^
+    symbol:   variable log
+    location: class ProductController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\controller\ProductController.java:56: error: cannot find symbol
+          log.info("list------------------------" + productDTO);
+          ^
+    symbol:   variable log
+    location: class ProductController
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:164: error: cannot find symbol
+          log.info("밀키트의 기본재료", mid);
+          ^
+    symbol:   variable log
+    location: class MealkitServiceImpl
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:201: error: cannot find symbol
+          log.info("재료들의 합을 업데이트합니다.", mid);
+          ^
+    symbol:   variable log
+    location: class MealkitServiceImpl
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\MealkitServiceImpl.java:220: error: cannot find symbol
+          log.info("다시 시도합니다.", mid);
+          ^
+    symbol:   variable log
+    location: class MealkitServiceImpl
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\service\ProductServiceImpl.java:26: error: cannot find symbol
+          log.info("get All......................");
+          ^
+    symbol:   variable log
+    location: class ProductServiceImpl
+  C:\Users\taeyun\IdeaProjects\back4\src\main\java\com\back4\util\JWTUtil.java:36: error: cannot find symbol
+          log.info("Generated JWT Token ({} minutes): {}", min, jwtStr);
+          ^
+    symbol:   variable log
+    location: class JWTUtil
+  74 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1m 4s
+1 actionable task: 1 executed
+2024-12-26T14:25:49.549+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2024-12-26T14:25:49.569+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-12-26T14:25:49.570+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52759 to /127.0.0.1:52760]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3b3de278 with state Busy
+2024-12-26T14:25:49.571+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:52759 to /127.0.0.1:52760]
+2024-12-26T14:25:49.571+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-12-26T14:25:49.571+0900 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:25:49.571+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:25:49.573+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:25:49.575+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:25:49.578+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:25:49.580+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-12-26T14:25:49.580+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@2ff141c6]
+2024-12-26T14:25:49.582+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@2ff141c6]
+2024-12-26T14:25:49.613+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-12-26T14:25:49.614+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@21ed512
+2024-12-26T14:25:49.614+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.Finished
+2024-12-26T14:25:49.615+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@5b07a959
+2024-12-26T14:25:49.615+0900 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2024-12-26T14:25:49.616+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received null
+2024-12-26T14:25:49.616+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received end-of-input from client.
+2024-12-26T14:25:49.618+0900 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=e87b44ad-adee-429a-a214-6cf51b41d496, currentDir=C:\Users\taeyun\IdeaProjects\back4}
+2024-12-26T14:25:49.618+0900 [WARN] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Timed out waiting for finished message from client socket connection from /127.0.0.1:52759 to /127.0.0.1:52760. Discarding connection.
+2024-12-26T14:25:49.618+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+2024-12-26T14:25:49.621+0900 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+2024-12-26T14:25:49.632+0900 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2024-12-26T14:25:50.040+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 317517824 free
+2024-12-26T14:25:50.040+0900 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 810 of memory
+2024-12-26T14:25:50.040+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 0 released, 317517824 free
+2024-12-26T14:25:51.636+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:25:51.637+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:25:51.637+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:25:51.639+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:25:51.640+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:25:51.640+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:25:55.058+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 324464640 free
+2024-12-26T14:25:55.058+0900 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 810 of memory
+2024-12-26T14:25:55.058+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 0 released, 324464640 free
+2024-12-26T14:26:00.047+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 342245376 free
+2024-12-26T14:26:00.047+0900 [DEBUG] [org.gradle.workers.internal.WorkerDaemonExpiration] Will attempt to release 810 of memory
+2024-12-26T14:26:00.048+0900 [DEBUG] [org.gradle.process.internal.health.memory.DefaultMemoryManager] 850218188 physical memory requested, 0 released, 342245376 free
+2024-12-26T14:26:01.637+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:26:01.637+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.638+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.642+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:26:01.642+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.642+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:26:01.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.644+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.645+0900 [INFO] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] after free system physical memory (326.3 MiB) fell below threshold of 405.4 MiB
+2024-12-26T14:26:01.647+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2024-12-26T14:26:01.647+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.648+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.648+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory
+2024-12-26T14:26:01.648+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1735190761648
+2024-12-26T14:26:01.650+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:26:01.651+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.653+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.654+0900 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory
+2024-12-26T14:26:01.654+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to other compatible daemons were started and after being idle for 0 minutes and not recently used and after being idle for 0 minutes and not recently used and to reclaim system physical memory. The daemon is not running a build
+2024-12-26T14:26:01.654+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2024-12-26T14:26:01.655+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2024-12-26T14:26:01.655+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2024-12-26T14:26:01.656+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:26:01.656+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:26:01.658+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:26:01.659+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.664+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.665+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2024-12-26T14:26:01.672+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] jars (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\jars-9) has last been fully cleaned up 21 hours ago
+2024-12-26T14:26:01.672+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for jars (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\jars-9) as it is not yet due
+2024-12-26T14:26:01.672+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileContent)
+2024-12-26T14:26:01.673+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache annotation-processors.bin (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileContent\annotation-processors.bin)
+2024-12-26T14:26:01.673+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileContent).
+2024-12-26T14:26:01.673+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache file content cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileContent) was closed 2 times.
+2024-12-26T14:26:01.674+0900 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2024-12-26T14:26:01.675+0900 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2024-12-26T14:26:01.675+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Generated Gradle JARs cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\generated-gradle-jars) was closed 0 times.
+2024-12-26T14:26:01.676+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\modules-2)
+2024-12-26T14:26:01.676+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\modules-2).
+2024-12-26T14:26:01.677+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] artifact cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\modules-2) has last been fully cleaned up 21 hours ago
+2024-12-26T14:26:01.677+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for artifact cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\modules-2) as it is not yet due
+2024-12-26T14:26:01.677+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache artifact cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\modules-2) was closed 7 times.
+2024-12-26T14:26:01.677+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] groovy-dsl (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\groovy-dsl) has last been fully cleaned up 21 hours ago
+2024-12-26T14:26:01.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for groovy-dsl (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\groovy-dsl) as it is not yet due
+2024-12-26T14:26:01.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache groovy-dsl (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\groovy-dsl) was closed 0 times.
+2024-12-26T14:26:01.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Artifact transforms cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\transforms) has last been fully cleaned up 21 hours ago
+2024-12-26T14:26:01.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for Artifact transforms cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\transforms) as it is not yet due
+2024-12-26T14:26:01.678+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\transforms) was closed 0 times.
+2024-12-26T14:26:01.679+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache journal cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\journal-1) was closed 5 times.
+2024-12-26T14:26:01.679+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileHashes)
+2024-12-26T14:26:01.680+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileHashes\resourceHashesCache.bin)
+2024-12-26T14:26:01.680+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileHashes).
+2024-12-26T14:26:01.681+0900 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache file hash cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\fileHashes) was closed 3 times.
+2024-12-26T14:26:01.681+0900 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Java compile cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\javaCompile)
+2024-12-26T14:26:01.682+0900 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache jarAnalysis.bin (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\javaCompile\jarAnalysis.bin)
+2024-12-26T14:26:01.682+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Java compile cache (C:\Users\taeyun\IdeaProjects\back4\gradle\caches\8.11.1\javaCompile).
+2024-12-26T14:26:01.684+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in C:\Users\taeyun\IdeaProjects\back4\gradle\caches' started
+2024-12-26T14:26:01.684+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Deleting unused version-specific caches in C:\Users\taeyun\IdeaProjects\back4\gradle\caches'
+2024-12-26T14:26:01.685+0900 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in C:\Users\taeyun\IdeaProjects\back4\gradle\caches' completed
+2024-12-26T14:26:01.685+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2024-12-26T14:26:01.685+0900 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2024-12-26T14:26:01.685+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:26:01.686+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:26:01.687+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-12-26T14:26:01.688+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-12-26T14:26:01.690+0900 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-12-26T14:26:01.690+0900 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2024-12-26T14:26:01.691+0900 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] File lock listener thread completed.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2024-12-26T14:26:01.694+0900 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [a901c9e7-62ae-49be-b2fb-d7a8a061bbee port:52759, addresses:[localhost/127.0.0.1]]
+2024-12-26T14:26:01.697+0900 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] VM shutdown hook was unable to remove the daemon address from the registry. It will be cleaned up later.
+java.lang.IllegalStateException: Cannot start managing file contention because this handler has been closed.
+	at org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler.assertNotStopped(DefaultFileLockContentionHandler.java:217)
+	at org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler.getCommunicator(DefaultFileLockContentionHandler.java:260)
+	at org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler.reservePort(DefaultFileLockContentionHandler.java:254)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:124)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:106)
+	at org.gradle.cache.internal.DefaultFileLockManager.lock(DefaultFileLockManager.java:101)
+	at org.gradle.cache.internal.OnDemandFileAccess.updateFile(OnDemandFileAccess.java:51)
+	at org.gradle.cache.internal.FileBackedObjectHolder.update(FileBackedObjectHolder.java:77)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.lambda$update$0(FileIntegrityViolationSuppressingObjectHolderDecorator.java:48)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.doUpdate(FileIntegrityViolationSuppressingObjectHolderDecorator.java:58)
+	at org.gradle.cache.internal.FileIntegrityViolationSuppressingObjectHolderDecorator.update(FileIntegrityViolationSuppressingObjectHolderDecorator.java:48)
+	at org.gradle.launcher.daemon.registry.PersistentDaemonRegistry.remove(PersistentDaemonRegistry.java:133)
+	at org.gradle.launcher.daemon.server.Daemon$1.run(Daemon.java:133)
+	at java.base/java.lang.Thread.run(Thread.java:842)
