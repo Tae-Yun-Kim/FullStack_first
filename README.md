@@ -47,40 +47,35 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
 * 밀키트 구매 시 재료의 수량 가감
   
-  ![image](https://github.com/user-attachments/assets/f096a7f4-fb67-4be1-b9ef-6e7bfc7981af)
+  <img src="https://github.com/user-attachments/assets/f096a7f4-fb67-4be1-b9ef-6e7bfc7981af" width="500" />
   
-  ![image](https://github.com/user-attachments/assets/f37ae77f-d141-4e75-bde3-a688b52706cd)
-
+  <img src="https://github.com/user-attachments/assets/f37ae77f-d141-4e75-bde3-a688b52706cd" width="500" />
 
 * 밀키트 이름 및 재료의 이름으로 검색 가능
   
-  ![image](https://github.com/user-attachments/assets/4814bc54-9235-4780-acc9-e856e9a27e63)
+  <img src="https://github.com/user-attachments/assets/4814bc54-9235-4780-acc9-e856e9a27e63" width="500" />
   
-  ![image](https://github.com/user-attachments/assets/45739129-59e9-4ba3-a3f8-5db2ff6fa907)
+  <img src="https://github.com/user-attachments/assets/45739129-59e9-4ba3-a3f8-5db2ff6fa907" width="500" />
   
-  ![image](https://github.com/user-attachments/assets/681beecd-f156-481f-baa0-18525872b176)
-
+  <img src="https://github.com/user-attachments/assets/681beecd-f156-481f-baa0-18525872b176" width="500" />
 
 * 게시판을 이용한 회원간의 레시피 공유
   
-  ![image](https://github.com/user-attachments/assets/ced89551-a119-4fe3-92a2-749ddc63986b)
+  <img src="https://github.com/user-attachments/assets/ced89551-a119-4fe3-92a2-749ddc63986b" width="500" />
   
-  ![image](https://github.com/user-attachments/assets/f5eebd62-10d5-46d5-9a0c-3d860d3f402c)
-
+  <img src="https://github.com/user-attachments/assets/f5eebd62-10d5-46d5-9a0c-3d860d3f402c" width="500" />
 
 * Python tensorflow를 이용한 이미지 검색
   
-  ![image](https://github.com/user-attachments/assets/dc1863f4-07f8-4060-b47d-1ffc1af3bd57)
-
+  <img src="https://github.com/user-attachments/assets/dc1863f4-07f8-4060-b47d-1ffc1af3bd57" width="500" />
 
 * 반응형 구조
   - pc 버전
   
-  ![image](https://github.com/user-attachments/assets/a68f90af-db8b-437f-9828-863d6fc2bcd5)
+  <img src="https://github.com/user-attachments/assets/a68f90af-db8b-437f-9828-863d6fc2bcd5" width="500" />
 
-  - 모바일 버전
-  
-  ![image](https://github.com/user-attachments/assets/a8f1d3bd-a6a7-4be1-bab4-e3350cca4d88)
+  - 모바일 버전  
+  <img src="https://github.com/user-attachments/assets/a8f1d3bd-a6a7-4be1-bab4-e3350cca4d88" width="500" />
 
 
 
