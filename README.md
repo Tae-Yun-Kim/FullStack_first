@@ -46,7 +46,7 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 ## 주요 기능
 
 * 밀키트 구매 시 재료의 수량 가감
-* 
+  
   ![image](https://github.com/user-attachments/assets/f096a7f4-fb67-4be1-b9ef-6e7bfc7981af)
   
   ![image](https://github.com/user-attachments/assets/f37ae77f-d141-4e75-bde3-a688b52706cd)
@@ -62,14 +62,14 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
 
 * 게시판을 이용한 회원간의 레시피 공유
-* 
+  
   ![image](https://github.com/user-attachments/assets/ced89551-a119-4fe3-92a2-749ddc63986b)
   
   ![image](https://github.com/user-attachments/assets/f5eebd62-10d5-46d5-9a0c-3d860d3f402c)
 
 
 * Python tensorflow를 이용한 이미지 검색
-* 
+  
   ![image](https://github.com/user-attachments/assets/dc1863f4-07f8-4060-b47d-1ffc1af3bd57)
 
 
