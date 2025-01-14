@@ -73,12 +73,7 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
   ![image](https://github.com/user-attachments/assets/25a2242a-a75e-4626-bae7-3bf4be4ecff3)
 
 * 반응형 구조
-  - pc 버전
-  
-  <img src="https://github.com/user-attachments/assets/a68f90af-db8b-437f-9828-863d6fc2bcd5" width="500" />
-
-  - 모바일 버전  
-  <img src="https://github.com/user-attachments/assets/a8f1d3bd-a6a7-4be1-bab4-e3350cca4d88" width="500" />
+  ![반응형](https://github.com/user-attachments/assets/d979ab23-8e80-409e-8c6d-598e39a00e29)
 
 
 
