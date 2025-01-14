@@ -73,6 +73,8 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
   ![image](https://github.com/user-attachments/assets/3878e1c3-078d-4378-bbfb-7a87e0326b58)
 
+  ![커뮤니티](https://github.com/user-attachments/assets/5487e318-1531-4056-b8e9-d1f8fdfbb490)
+
 * Python tensorflow를 이용한 이미지 검색
   
   ![image](https://github.com/user-attachments/assets/25a2242a-a75e-4626-bae7-3bf4be4ecff3)
