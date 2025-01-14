@@ -54,6 +54,9 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
   ![image](https://github.com/user-attachments/assets/b950fe1e-de91-4b15-aaa3-e2aeea0be55e)
 
+  ![재료 수량 조절](https://github.com/user-attachments/assets/5c1cb910-f11e-404b-b91d-50dd9d2ab47a)
+
+
 * 밀키트 이름 및 재료의 이름으로 검색 가능
   
   ![image](https://github.com/user-attachments/assets/f0b6f9bd-5b52-4bb3-9738-453730a026f9)
