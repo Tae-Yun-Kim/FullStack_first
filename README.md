@@ -36,6 +36,8 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
      - MySQL 8.0
 ### - `배포`
       -AWS
+![image](https://github.com/user-attachments/assets/0dccde4c-26f5-4f24-af5a-9332e5d91bad)
+
 
 ## ERD
 
