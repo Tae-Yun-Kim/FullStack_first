@@ -7,6 +7,9 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 ## 개발 기간
 2024/12/10 ~ 2025/1/10
 
+## 시연영상
+  https://youtu.be/bkMbD0SViiA?si=zyRjsarPGoTY3naS
+
 ## 협업 멤버
 <table>
   <tr>
@@ -47,27 +50,27 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
 * 밀키트 구매 시 재료의 수량 가감
   
-  <img src="https://github.com/user-attachments/assets/f096a7f4-fb67-4be1-b9ef-6e7bfc7981af" width="500" />
-  
-  <img src="https://github.com/user-attachments/assets/f37ae77f-d141-4e75-bde3-a688b52706cd" width="500" />
+  ![image](https://github.com/user-attachments/assets/9224ced4-3f99-469d-a014-7515d43823b4)
+
+  ![image](https://github.com/user-attachments/assets/b950fe1e-de91-4b15-aaa3-e2aeea0be55e)
 
 * 밀키트 이름 및 재료의 이름으로 검색 가능
   
-  <img src="https://github.com/user-attachments/assets/4814bc54-9235-4780-acc9-e856e9a27e63" width="500" />
+  ![image](https://github.com/user-attachments/assets/f0b6f9bd-5b52-4bb3-9738-453730a026f9)
+
+  ![image](https://github.com/user-attachments/assets/9d1451fc-5ac6-4bb6-afc9-ebf3afc291ab)
   
-  <img src="https://github.com/user-attachments/assets/45739129-59e9-4ba3-a3f8-5db2ff6fa907" width="500" />
-  
-  <img src="https://github.com/user-attachments/assets/681beecd-f156-481f-baa0-18525872b176" width="500" />
+  ![image](https://github.com/user-attachments/assets/4a918fc6-23d2-4b41-aa5f-59828fb6e6cd)
 
 * 게시판을 이용한 회원간의 레시피 공유
   
-  <img src="https://github.com/user-attachments/assets/ced89551-a119-4fe3-92a2-749ddc63986b" width="500" />
-  
-  <img src="https://github.com/user-attachments/assets/f5eebd62-10d5-46d5-9a0c-3d860d3f402c" width="500" />
+  ![image](https://github.com/user-attachments/assets/10075330-4300-46c5-b516-a3a648dfa7c1)
+
+  ![image](https://github.com/user-attachments/assets/3878e1c3-078d-4378-bbfb-7a87e0326b58)
 
 * Python tensorflow를 이용한 이미지 검색
   
-  <img src="https://github.com/user-attachments/assets/dc1863f4-07f8-4060-b47d-1ffc1af3bd57" width="500" />
+  ![image](https://github.com/user-attachments/assets/25a2242a-a75e-4626-bae7-3bf4be4ecff3)
 
 * 반응형 구조
   - pc 버전
@@ -79,6 +82,4 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
 
 
-## 시연영상
-  https://youtu.be/bkMbD0SViiA?si=zyRjsarPGoTY3naS
 
