@@ -48,7 +48,7 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
 ## 주요 기능
 
-* 밀키트 구매 시 재료의 수량 가감
+### 밀키트 구매 시 재료의 수량 가감
   
   ![image](https://github.com/user-attachments/assets/9224ced4-3f99-469d-a014-7515d43823b4)
 
@@ -57,7 +57,7 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
   ![재료 수량 조절](https://github.com/user-attachments/assets/5c1cb910-f11e-404b-b91d-50dd9d2ab47a)
 
 
-* 밀키트 이름 및 재료의 이름으로 검색 가능
+### 밀키트 이름 및 재료의 이름으로 검색 가능
   
   ![image](https://github.com/user-attachments/assets/f0b6f9bd-5b52-4bb3-9738-453730a026f9)
 
@@ -67,7 +67,7 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
   ![밀키트_재료_검색](https://github.com/user-attachments/assets/03f9fc66-e129-4509-bfbe-5120965393fe)
 
-* 게시판을 이용한 회원간의 레시피 공유
+### 게시판을 이용한 회원간의 레시피 공유
   
   ![image](https://github.com/user-attachments/assets/10075330-4300-46c5-b516-a3a648dfa7c1)
 
@@ -75,11 +75,13 @@ Spring Boot, React, python 을 활용한 풀스택 E-커머스 프로젝트
 
   ![커뮤니티](https://github.com/user-attachments/assets/5487e318-1531-4056-b8e9-d1f8fdfbb490)
 
-* Python tensorflow를 이용한 이미지 검색
+### Python tensorflow를 이용한 이미지 검색
   
   ![image](https://github.com/user-attachments/assets/25a2242a-a75e-4626-bae7-3bf4be4ecff3)
 
-* 반응형 구조
+  ![이미지검색](https://github.com/user-attachments/assets/4951b762-3239-4421-b256-cc10f5262c89)
+
+### 반응형 구조
   ![반응형](https://github.com/user-attachments/assets/d979ab23-8e80-409e-8c6d-598e39a00e29)
 
 
