@@ -1,5 +1,5 @@
 # fullstack_first
-Spring Boot, React, RESTful API, Python, AWS 를 활용한 첫번째 풀스택 프로젝트(E-커머스)
+RESTful API, Spring Boot, React, Python, AWS 를 활용한 첫번째 풀스택 프로젝트(E-커머스)
 
 ## 프로젝트 소개
 밀키트 판매와 커뮤니티가 결합 된 E-커머스 프로젝트
