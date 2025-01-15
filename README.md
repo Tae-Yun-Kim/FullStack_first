@@ -41,7 +41,7 @@ RESTful API, Spring Boot, React, Python, AWS 를 활용한 첫번째 풀스택 �
 
 ## ERD
 
-  ![image](https://github.com/user-attachments/assets/38371054-e52b-430d-86cd-c52e032e8447)
+  ![프로젝트ERD drawio](https://github.com/user-attachments/assets/c78033c2-94e9-40ec-a47e-2baeed54d430)
 
 ## 유스케이스
 
